@@ -16,7 +16,7 @@ This toolchain is built on Ubuntu 18.04 LTS, which uses glibc 2.27. Compatibilit
 
 ## Building Linux
 
-Make sure you have this toolchain in your `PATH`:
+Make sure you have this toolchain in your `PATH` (can be permanent add to .bashrc, after paste it, run $source ~/.bashrc):
 
 ```bash
 export PATH="$HOME/toolchains/proton-clang/bin:$PATH"
